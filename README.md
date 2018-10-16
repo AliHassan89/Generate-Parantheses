@@ -34,3 +34,7 @@ generateParenthesisHelper(result, parans+"(", open+1, close, max);
 
 6. Same will be the case with close that if value of close is less than max then call the function recursively add 1 to close and appending one close parentheses to parans string
 generateParenthesisHelper(result, parans+")", open, close+1, max);
+
+
+Time Complexity = O(2^n)
+space complexity = O(n)
